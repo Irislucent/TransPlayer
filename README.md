@@ -17,7 +17,7 @@ This is the codebase of the paper titled **TransPlayer: Timbre Style Transfer wi
     - How to perform inference:
     ```
     cd autoencoder
-    python -m inference [--feature_path xxxx/path_to_the_original_cqt.npy] [--org "instrument_name_A"] [--trg "instrument_name_B"] [--cp_path yyyy/path_of_your_model]
+    python -m inference [--feature_path xxxx/path_to_the_original_cqt.npy] [--org "instrument_name_A"] [--trg "instrument_name_B"] [--cp_path yyyy/path_to_your_model]
     ```
 
 - How to generate the waveform
