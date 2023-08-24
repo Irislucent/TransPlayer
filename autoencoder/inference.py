@@ -46,10 +46,7 @@ def inference(config):
         else:
             x_trg = x_identic_psnt[0, 0, :-len_pad, :].cpu().numpy()
 
-    emb_name = os.path.basename(config.emb_org)
-    ins_name_org = emb_name.split('_')[0]
-
-    np.save(os.path.basename(config.feature_path)[:-4] + "_" + ins_name_org + "_" + ins_name_org + ".npy", x_trg.T)
+    np.save(os.path.basename(config.feature_path)[:-4] + "_" + ins_org + "_" + ins_org + ".npy", x_trg.T)
     print("result saved.")
 
     with torch.no_grad():
@@ -59,10 +56,7 @@ def inference(config):
         else:
             x_trg = x_identic_psnt[0, 0, :-len_pad, :].cpu().numpy()
 
-    emb_name = os.path.basename(config.emb_trg)
-    ins_name_trg = emb_name.split('_')[0]
-
-    np.save(os.path.basename(config.feature_path)[:-4] + "_" + ins_name_org + "_" + ins_name_trg + ".npy", x_trg.T)
+    np.save(os.path.basename(config.feature_path)[:-4] + "_" + ins_org + "_" + ins_trg + ".npy", x_trg.T)
     print("result saved.")
 
 
