@@ -1,4 +1,4 @@
-This is the codebase of the paper titled [**TransPlayer: Timbre Style Transfer with Flexible Timbre Control**](https://ieeexplore.ieee.org/document/10096233).
+This is the codebase of the paper titled [**TransPlayer: Timbre Style Transfer with Flexible Timbre Control**](https://ieeexplore.ieee.org/document/10096233) (ICASSP 2023).
 
 [Click me](https://irislucent.github.io/TransPlayer-demos/) to listen to the demos.
 
